@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações Sobre HTML</title>
+</head>
+<body>
+   <h1 id="Home"></h1>
+    Tudo que você precisa saber sobre HTML
+</h1><hr>
+<h2><strong>Sumário</strong> </h2><h2>
+    <ol>
+        <ol>
+            <a href="#Entendendo Comunicação Client X Server"><li><u>Entendendo Comunicação ClientXServer</u></li></a>
+            <a href="#História da Web"><li><u> História da Web </u></li></a>
+            <a href="#Sobre linguagem de programação"><li><u>O que é linguagem de programação? </u></li></a>
+            <a href="Estrutura básica do HTML"><li><u><i>Estrutura básica do HTML</i></u></li></a>
+            <ol 
+            class="topics">
+
+            <ol class="tópicos">
+                <h2 id="ClientXServer"><li>ClientXServer
+                </li></h2>
+                <small><a href="#inicio">(inicio)</a></small>
+
+        A arquitetura de cliente-servidor é um modelo de computação distribuída que divide tarefas entre
+        fornecedores de serviços, chamados servidores, e solicitantes de serviços, chamados clientes. Esse modelo é fundamental para o funcionamento da internet e de muitas aplicações e serviços online. Aqui está um resumo das principais diferenças e características de cada componente:
+
+        
+        <h4>Client</h4>
+        <ol> Um cliente é um dispositivo ou software que solicita serviços ou recursos de um servidor. Sua função é enviar requisições ao servidor e processar as respostas. Por exemplo, navegadores web (como Chrome, Firefox) que solicitam páginas da web de servidores.Normalmente executado no dispositivo do usuário final, como computadores pessoais, smartphones ou tablets.</ul>
+         Geralmente possui uma interface de usuário (UI) para interagir com o servidor e apresentar os dados ao usuário final.</ol>
+        </p>
+
+        <h4>Server</h4>
+
+        <ol>Um servidor é um sistema (hardware e software) que fornece serviços ou recursos aos clientes. Sua função é receber e responder às requisições dos clientes, processando os dados necessários. Por exemplo, servidores web que hospedam sites e servidores de banco de dados que gerenciam informações. Normalmente executado em máquinas de alto desempenho.</ol>
+
+        
+        <o1 class="tópicos">
+            <h2 id="História da Web"><li>História da Web
+            </li></h2>
+            <small><a href="#inicio">(inicio)</a></small>
+            <p>
+                A história da web é uma fascinante jornada de inovação e colaboração que começou nos corredores do CERN, em 1989, quando Tim Berners-Lee propôs um sistema para facilitar o compartilhamento de documentos entre cientistas.
+            
+                Essa ideia inicial evoluiu rapidamente, resultando no lançamento do primeiro website em 1991 e na criação das tecnologias fundamentais como HTML, HTTP e URLs. Desde então, a web tem crescido exponencialmente, transformando-se de uma ferramenta acadêmica para um fenômeno global que conecta bilhões de pessoas, impulsionando o comércio, a comunicação e a disseminação de conhecimento de uma forma sem precedentes na história da humanidade.
+                <p>
+
+                    <h2 id="Sobre linguagem de programação?"><li>Sobre linguagem da programação</li></h2>
+                </p>
+                A linguagem de programação é um conjunto de instruções e regras utilizadas para criar programas que executam tarefas específicas em computadores e outros dispositivos eletrônicos. Ela serve como uma forma de comunicação entre os desenvolvedores de software e as máquinas, permitindo que ideias e algoritmos sejam transformados em código compreensível pela máquina.
+                Além de ser uma ferramenta técnica, a linguagem de programação também encoraja a lógica e o pensamento algorítmico, ajudando os desenvolvedores a resolver problemas de maneira sistemática e criativa. Com o contínuo avanço da tecnologia, novas linguagens surgem para atender às demandas de diferentes aplicações, mantendo a programação como um campo dinâmico e essencial na era digital.
+                <p>
+                
+                <h2 id="Estrutura Básica do HTML"><li> <i>HTML</i></li></h2>
+                <P>
+                    A estrutura básica do HTML (HyperText Markup Language) é fundamental para a criação de páginas web. HTML é a linguagem padrão para estruturar e apresentar conteúdo na internet, e sua estrutura básica consiste em elementos que definem diferentes partes de uma página.
+                    Todo documento HTML começa com a declaração !DOCTYPE html , que especifica a versão do HTML utilizada (HTML5, no caso mais comum atualmente).  
+                    <P></P>
+                    O elemento < html > é o contêiner raiz de todo o documento HTML. Ele envolve todo o conteúdo da página, incluindo cabeçalho e corpo.
+                    <P>
+                        O elemento < head > contém informações sobre o documento, como o título da página, links para estilos CSS, scripts JavaScript, metadados e mais.
+                    </P>
+                    Dentro do < head>, o elemento < title> define o título da página, que é exibido na barra de título do navegador ou na aba. 
+                    <P></P>
+                    O elemento <body> contém o conteúdo visível da página, como texto, imagens, vídeos, links, formulários, etc.
